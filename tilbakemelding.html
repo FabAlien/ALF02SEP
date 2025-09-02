@@ -17,6 +17,16 @@
     <main>
       <h1>Tilbakemelding</h1>
       <hr>
+      <label for="fSatisfaction">Gi en vurdering på en skala fra 1 til 10:</label><br>
+      <input type="range" min="0" max="10"><br>
+      <label for="fCategory">Hvilken kategori gjelder tilbakemeldingen:</label><br>
+      <select name="fCategory" id="fCategory">
+        <option value="order">Bestilling</option>
+        <option value="registration">Registrering</option>
+        <option value="service">Kundeservice</option>
+        <option value="overall">Helhetligh</option>
+      </select><br><br>
+      <input type="submit">
     </main>
   </body>
 </html>
