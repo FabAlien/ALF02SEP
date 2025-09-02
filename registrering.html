@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Other page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Kontakt Oss</a>
+      <a href="/registrering.html" aria-current="page">Registrering</a>
+      <a href="/bestilling.html">Bestilling</a>
+      <a href="/tilbakemelding.html">Tilbakemelding</a>
+    </nav>
+    <main>
+      <h1>Registrering</h1>
+      <hr>
+      <form action="">
+        <label for="rUser">Brukernavn:</label><br>
+        <input type="text"><br>
+        <label for="rPass">Passord:</label><br>
+        <input type="password"><br>
+        <input type="radio" id="rMale" value="rMale" name="rGender">
+        <label for="rMale">Mann</label><br>
+        <input type="radio" id="rFemale" value="rFemale" name="rGender">
+        <label for="rFemale">Kvinne</label><br>
+        <input type="radio" id="rOther" value="rOther" name="rGender">
+        <label for="rOther">Annet</label><br>
+        <input type="radio" id="rOptOut" value="rOptOut" name="rGender">
+        <label for="rOptOut">Vil ikke dele</label><br><br>
+        <input type="submit">
+      </form>
+    </main>
+  </body>
+</html>

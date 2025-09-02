@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Other page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Kontakt Oss</a>
+      <a href="/registrering.html">Registrering</a>
+      <a href="/bestilling.html" aria-current="page">Bestilling</a>
+      <a href="/tilbakemelding.html">Tilbakemelding</a>
+    </nav>
+    <main>
+      <h1>Bestilling</h1>
+      <hr>
+      <label for="oSelect">Velg ønsket størrelse:</label><br>
+      <select name="oSelect" id="oSelect">
+        <option value="small">Liten</option>
+        <option value="medium">Medium</option>
+        <option value="large">Stor</option>
+      </select><br>
+      <label for="oAmount">Antall ønsket:</label><br>
+      <input type="number"><br>
+      <label for="oColor">Ønsket farge:</label><br>
+      <input type="color" value="#ff0000"><br><br>
+      <input type="submit">
+    </main>
+  </body>
+</html>
